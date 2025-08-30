@@ -70,7 +70,7 @@ results_df = pd.DataFrame({
     "Predicted": predictions_inverse.flatten()
 })
 results_df.to_csv("results.csv", index=False)
-print("✅ Results saved to results.csv")
+print(" Results saved to results.csv")
 
 # -----------------------------
 # Plot Results
@@ -86,4 +86,4 @@ plt.legend()
 # Save plot
 plt.savefig("prediction_plot.png")
 plt.close()
-print("✅ Prediction plot saved as prediction_plot.png")
+print("Prediction plot saved as prediction_plot.png")

@@ -24,32 +24,6 @@ Main libraries used:
 
 TensorFlow / Keras
 NumPy
-Pandas
-Matplotlib
-Scikit-learn
-
-How to Run
-
-1. Clone this repository:
-git clone https://github.com/your-username/energy_project.git
-
-2. Navigate to project folder:
-cd energy_project
-
-3. Run the script:
-python lstm_energy.py
-
-Results
-
-The LSTM model was able to capture the trend of energy consumption.
-Below is the comparison of actual vs predicted values:
-
-
-
-
-
-
- -->
 
 # Energy Consumption Prediction using LSTM
 

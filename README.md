@@ -1,0 +1,122 @@
+<!-- Energy Consumption Prediction using LSTM
+
+ Project Overview
+
+This project uses Long Short-Term Memory (LSTM) neural networks to predict household energy consumption based on time-series data. The dataset contains features like voltage, global active power, and sub-metering values.
+
+The goal is to build a deep learning model that can analyze past consumption patterns and predict future energy usage.
+
+Project Structure
+
+ENERGY_PROJECT/
+│── household_power_consumption.txt   # Dataset used for training & testing
+│── lstm_energy.py                    # Main Python script (LSTM model training & prediction)
+│── prediction_plot.png                # Output graph of actual vs predicted values
+│── requirements.txt                   # List of dependencies
+│── README.md                          # Project documentation
+
+Requirements
+
+Install all dependencies with:
+pip install -r requirements.txt
+
+Main libraries used:
+
+TensorFlow / Keras
+NumPy
+Pandas
+Matplotlib
+Scikit-learn
+
+How to Run
+
+1. Clone this repository:
+git clone https://github.com/your-username/energy_project.git
+
+2. Navigate to project folder:
+cd energy_project
+
+3. Run the script:
+python lstm_energy.py
+
+Results
+
+The LSTM model was able to capture the trend of energy consumption.
+Below is the comparison of actual vs predicted values:
+
+
+
+
+
+
+ -->
+
+# Energy Consumption Prediction using LSTM
+
+##  Project Overview
+This project applies **Long Short-Term Memory (LSTM)** neural networks to forecast **household energy consumption** using time-series data.  
+The dataset (`household_power_consumption.txt`) contains features like **Global Active Power, Voltage, and Sub-metering values**.  
+The main goal is to analyze **historical patterns** and predict **future consumption trends** for better energy management.
+
+
+
+##  Project Structure
+ENERGY_PROJECT/
+│── household_power_consumption.txt       # Dataset used for training & testing
+│── lstm_energy.py                        # Main Python script (LSTM model training & prediction)
+│── prediction_plot.png                   # Output graph of actual vs predicted values
+│── results.csv                           # CSV file containing Actual vs Predicted values
+│── requirements.txt                      # List of dependencies
+│── README.md                             # Project documentation
+
+
+##  Requirements
+Install all dependencies with:
+
+pip install -r requirements.txt
+
+Main libraries used:
+
+TensorFlow / Keras
+NumPy
+Pandas
+Matplotlib
+Scikit-learn
+
+ How to Run
+Clone this repository:
+
+git clone https://github.com/your-username/energy_project.git
+
+Navigate to project folder:
+
+cd ENERGY_PROJECT
+
+Run the script:
+
+python lstm_energy.py
+
+## Results
+The LSTM model successfully captured the trend of household energy consumption.
+
+Outputs generated:
+
+prediction_plot.png → Visualization of Actual vs Predicted energy consumption.
+
+results.csv → Contains tabular data of Actual vs Predicted values for further analysis.
+
+Sample (from results.csv):
+
+Actual	Predicted
+4.216	4.101
+5.360	5.275
+3.458	3.602
+4.123	4.008
+
+##  Conclusion
+
+This project demonstrates the capability of **LSTM neural networks** in predicting household energy consumption from historical data.  
+The model successfully captured patterns in electricity usage and provided reliable future forecasts, proving the effectiveness of deep learning in energy management.
+
+
+
